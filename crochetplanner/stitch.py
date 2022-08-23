@@ -1,6 +1,3 @@
-from re import A
-
-
 class Stitch:
     def __init__(self, name: str, count: int = 1, consumes: int = 1, creates: int = 1) -> None:
         '''
